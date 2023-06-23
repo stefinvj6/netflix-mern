@@ -4,7 +4,7 @@ import axios from '../../axios'
 
 function RowPost(props) {
   const [movies, setmovies] = useState([])
-  const [urlId, setUrlId] = useState('')
+  // const [urlId, setUrlId] = useState('')
 
   useEffect(() => {
     axios.get(props.url)
@@ -13,20 +13,20 @@ function RowPost(props) {
     }).catch((error)=>{
       console.log(error)
     })
-  }, [])
+  }, [props.url])
 
-  const opts = {
-    height: '390',
-    width: '100%',
-    playerVars: {
-      autoplay: 0,
-    },
-  };
+  // const opts = {
+  //   height: '390',
+  //   width: '100%',
+  //   playerVars: {
+  //     autoplay: 0,
+  //   },
+  // };
   const handleMovie = (_id)=>{
     console.log(_id)
     axios.get(`/movie/${_id}`)
     .then((response)=>{
-      setUrlId(response.data)
+      console.log(response.data)
     }).catch((error)=>{
       console.log(error)
     })
