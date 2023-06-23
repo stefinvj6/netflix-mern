@@ -1,0 +1,36 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.netflix-logo{
+    position: fixed;
+    left: 10px;
+    width: 85px;
+    top: 20px;    
+}
+.ul{
+    display: flex;
+    position: fixed;
+    left: 75rem;
+}
+.lists{
+    list-style-type: none;
+    color: white;
+    margin-right: 20px;
+}
+.lists:hover{
+    color: rgb(255, 5, 5);
+    cursor: pointer;
+}
+.avathar{
+    position: fixed;
+    top: 22px;
+    right: 10px;
+    width: 30px;
+}

@@ -1,0 +1,6 @@
+export const baseurl ='http://localhost:3333/movie'
+export const movies ='movie'
+export const actionurl = 'getcategory/6475702c4071abc03419c117'
+export const comedyurl ='getcategory//647570414071abc03419c119'
+export const trendingurl ='getcategory/647570494071abc03419c11b'
+export const dramaurl ='getcategory/64786954855499a11458c86e'
