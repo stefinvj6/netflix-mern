@@ -1,50 +1,77 @@
 .banner{
-    /* background-image: url(https://www.whats-on-netflix.com/wp-content/uploads/2021/08/whats-new-on-netflix-canada-this-week-august-20th-2021.jpg); */
-    background-size: cover;
-    background-repeat: repeat;
-    /* width: 100%; */
-    height: 600px;
-    color: white;
-}
-.content{
-    padding-top: 240px;
-    height: 290px;
-    padding-left: 15px;
-}
-.title{
-    font-size: 3rem;
-    font-weight: 800;
-    padding-bottom: 0.3rem;
-}
-.button{
-    color: white;
-    outline: none;
-    border: none;
-    font-weight: 700;
-    border-radius: 5px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: rgba(51, 51, 51, .5);
-    cursor: pointer;
-    margin-left: 10px;
-    margin-right: 1rem;
-}
-.button:hover{
-    color: black;
-    background-color: #e6e6e6;
-}
-.description{
-    width: 45rem;
-    line-height: 1.3;
-    padding-top: 1rem;
-    font-size: 0.99rem;
-    height: 80px;
-    max-width: 360px;
-}
-.fade-bottom{
-    height: 7.4rem;
-    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+  /* background-image: url(https://www.whats-on-netflix.com/wp-content/uploads/2021/08/whats-new-on-netflix-canada-this-week-august-20th-2021.jpg); */
+  background-size: cover;
+  background-repeat: repeat;
+  /* width: 100%; */
+  height: 600px;
+  color: white;
+  text-align: justify;
 
 }
+.content{
+  padding-top: 240px;
+  height: 290px;
+  padding-left: 15px;
+  margin-left: 50px;
+}
+.title{
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  
+}
+.button{
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, .5);
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 1rem;
+}
+.button:hover{
+  color: black;
+  background-color: #e6e6e6;
+}
+.description{
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.99rem;
+  height: 80px;
+  max-width: 360px;
+}
+.fade-bottom{
+  height: 7.4rem;
+  background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+
+}
+  /* Responsive Styles */
+  @media screen and (max-width: 416px) {
+    .banner {
+      height: 300px;
+      margin-bottom: 50px;
+    }
+    .content {
+      padding-top: 100px;
+      margin-left: 0px;
+    } 
+    .title {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .button {
+        margin-left: -10px;
+    }
+    .description {
+      width: 60%;
+      max-width: 250px;
+      text-align: justify;
+    }
+  } 
