@@ -1,4 +1,4 @@
-export const baseurl ='http://localhost:3333/movie'
+export const baseurl ='https://netflix-clone-8t9x.onrender.com/'
 export const movies ='movie'
 export const actionurl = 'getcategory/6475702c4071abc03419c117'
 export const comedyurl ='getcategory//647570414071abc03419c119'
